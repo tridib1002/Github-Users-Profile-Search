@@ -7,8 +7,8 @@ $(document).ready(function(){
         url: 'https://api.github.com/users/'+username,
         // Returns JSON data about users
         data:{
-            client_id : '41cf170640bd25f36a45',
-            client_secret : 'dfa2607d39734a6c841211f134056f3491c1891c'
+            client_id : '<git-hub-client-id>',
+            client_secret : '<git-hub-client-secret>'
         }
         }).done(function(userData){ // After completing first call, second ajax call
             $.ajax({
